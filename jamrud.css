@@ -1,0 +1,177 @@
+/* =========================
+   BACKGROUND UTAMA
+========================= */
+.stApp {
+    background: linear-gradient(180deg, #f5f5f5, #bdbdbd);
+    color: #2b2b2b;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #d6d6d6, #8f8f8f);
+    border-right: 2px solid #ff5fa2;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #1f1f1f;
+}
+
+/* =========================
+   JUDUL & TEKS
+========================= */
+h1, h2, h3, h4 {
+    color: #ff5fa2;
+    text-shadow: 0px 0px 6px rgba(255, 95, 162, 0.3);
+}
+
+p, label, span {
+    color: #2f2f2f;
+}
+
+/* =========================
+   FILE UPLOADER
+========================= */
+div[data-testid="stFileUploader"] {
+    background-color: #eeeeee;
+    border: 1px dashed #ff5fa2;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+/* =========================
+   FILE UPLOADER - NAMA FILE
+========================= */
+
+/* Nama file saja */
+div[data-testid="stFileUploaderFile"] span {
+    color: #000000 !important;
+    opacity: 1 !important;
+    font-weight: 600;
+}
+
+/* Ukuran file */
+div[data-testid="stFileUploaderFile"] small {
+    color: #333333 !important;
+    opacity: 1 !important;
+}
+
+/* Icon file */
+div[data-testid="stFileUploaderFile"] svg {
+    fill: #ff6fae !important;
+    opacity: 1 !important;
+}
+
+/* Tombol X (hapus file) */
+div[data-testid="stFileUploaderFile"] button {
+    background-color: #ff6fae !important;
+    color: black !important;
+    border-radius: 50% !important;
+    opacity: 1 !important;
+}
+
+
+/* =========================
+   BROWSE FILES BUTTON
+========================= */
+div[data-testid="stFileUploader"] button {
+    background: linear-gradient(90deg, #ff5fa2, #ff8fc7);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    padding: 6px 14px;
+    box-shadow: 0px 3px 8px rgba(255, 95, 162, 0.45);
+    transition: 0.3s;
+}
+
+div[data-testid="stFileUploader"] button:hover {
+    background: linear-gradient(90deg, #ff8fc7, #ff5fa2);
+    transform: scale(1.05);
+    box-shadow: 0px 5px 14px rgba(255, 95, 162, 0.7);
+}
+
+/* =========================
+   BUTTON
+========================= */
+.stDownloadButton button,
+.stButton button {
+    background: linear-gradient(90deg, #ff5fa2, #ff8fc7);
+    color: #ffffff;
+    border-radius: 12px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 4px 12px rgba(255, 95, 162, 0.45);
+    transition: 0.3s;
+}
+
+.stDownloadButton button:hover,
+.stButton button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 18px rgba(255, 95, 162, 0.7);
+}
+
+/* =========================
+   SLIDER
+========================= */
+div[data-baseweb="slider"] span {
+    background-color: #ff5fa2 !important;
+}
+
+/* =========================
+   CHECKBOX & SELECTBOX
+========================= */
+/* SELECTBOX */
+/* Selected value text (Median ketika tertutup) */
+div[data-testid="stSelectbox"] div[role="button"] div {
+    color: #ffffff !important;
+    opacity: 1 !important;
+    font-weight: 600 !important;
+}
+
+div[data-testid="stSelectbox"] * {
+    color: #ffffff !important;
+    opacity: 1 !important;
+
+/* Span fallback */
+div[data-testid="stSelectbox"] div[role="button"] span {
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+/* Disable BaseWeb dimmed text */
+div[data-testid="stSelectbox"] [aria-selected="true"] {
+    color: #ffffff !important;
+}
+/* =========================
+   IMAGE FRAME
+========================= */
+img {
+    border-radius: 15px;
+    border: 2px solid #ff5fa2;
+    box-shadow: 0px 6px 15px rgba(255, 95, 162, 0.4);
+}
+
+/* =========================
+   HISTOGRAM
+========================= */
+canvas {
+    background-color: #e5e5e5 !important;
+}
+
+/* =========================
+   SCROLLBAR
+========================= */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #cfcfcf;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff5fa2;
+    border-radius: 10px;
+}
