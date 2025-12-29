@@ -209,7 +209,7 @@ with tab_about:
     1. Deo Kharisma Pratama (23010074)  
     2. Muhammad Irfan       (23010016)    
     3. Muhammad Isa Dawud   (23010045)
-    4. Rahmat Ilahi         (230100)
+    4. Rahmat Ilahi         (23010091)
 
     **Catatan:**  
     Aplikasi ini menggunakan teknik pengolahan citra klasik
